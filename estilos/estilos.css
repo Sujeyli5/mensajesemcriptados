@@ -1,0 +1,177 @@
+.principal{
+    width: 500px;
+    /*height: 400px;*/
+    margin: auto;
+    border-radius: 10px;
+    border: 4px rgb(5, 208, 235) solid;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(129, 237, 245);
+    opacity: 0.7;
+    height: 500px;
+ 
+}
+
+.principal1{
+    width: 500px;
+    /*height: 400px;*/
+    margin: auto;
+    border-radius: 10px;
+    border: 4px rgb(5, 208, 235) solid;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(129, 237, 245);
+    opacity: 0.7;
+}
+
+.contenido{
+    
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+h2{
+    margin: 0px;
+    font-size: 25 px;
+    
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+}
+
+.titulo{
+    
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 50px;
+    font-style: normal;
+
+}
+body{
+   
+    background-image: url("https://png.pngtree.com/background/20230416/original/pngtree-underwater-cartoon-background-picture-image_2443772.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+/* la siguiente es cuando el cursor se coloca*/
+.continuar:hover{
+    background-color: rgb(22, 20, 182);
+    color: rgb(250, 228, 228);
+}
+
+.letra{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.siguiente{
+    text-align: center;
+  
+}
+
+
+form{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pergamino{
+    width: 400px;
+    height: 200px;
+    background-image: url("../multimedia/pergamino.jpg");
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+.letrs{
+    
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 40px;
+
+}
+
+.title{
+    font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: italic;
+}
+/*
+.cajita{
+    margin-top: 220px;
+}
+*/
+.btn {
+    border: none; 
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    width: 100px;
+}
+
+  .primary {
+    background-color: white; 
+    border: 2px solid #007bff;
+    margin: auto;
+   
+} 
+
+  .primary:hover {background: #0b7dda; color: white;}
+
+  a{
+    text-decoration: none;
+    
+  }
+
+
+img{
+    
+    margin-left: 130px;
+    
+}
+
+.lets{
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+.reed{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+p{
+    text-align: center;
+}
+.number{
+    margin: auto;
+}

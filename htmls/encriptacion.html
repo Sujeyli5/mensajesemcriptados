@@ -4,23 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilos/estilos.css">
+   
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+
+
+
 </head>
 <body>
-    <div class="principal">
+    <div class="principal1">
         <div class="titulo">
-            <h1>¡Descifra el mensaje que salvo el Peru!</h1>
+            <p>¡Descifra el mensaje que salvo el Peru!</p>
         </div>
         <div class="contenido">
-            <h1>Jose Olaya te ha dado el siguiente mensaje secreto, ¡asegurate de copiarlo!</h1>
-            <p></p>
-            <form action="">
-                <input type="text" id="nombre" placeholder="ingresa tu nombre">
-                <br><br>
-                <a href="descifracion.html" class="siguiente" id="enviar">copiado</a>
-            </form>
+            <h1 class="lets">Jose Olaya te ha dado el siguiente mensaje secreto: "Las tropas realistas se acercan por el norte"
+                ¡asegurate de encriptarlo!</h1>
+            <div class="pergamino">
+
+                <textarea class="number" name="" id="nombre" placeholder="ingresa el mensaje"></textarea>
+                <br>
+                <input class="number" id="clave" type="text" placeholder="clave">
+                <br>
+                 <textarea class="number" name="" id="encriptado"></textarea>
+               <br> 
+                <button class="number"  type="button" onclick="encriptar()">Encriptar</button>
+                <br>
+              <a href="descifracion.html" class="btn primary" id="enviar">copiado</a>
+               
+            </div>
+            
         </div>
+        
     </div>
     <script src="scripts/encriptacion.js"></script>
 </body>
 </html>
+
+<!--<input class="pergamino" type="text" id="nombre" placeholder="ingresa el mensaje">

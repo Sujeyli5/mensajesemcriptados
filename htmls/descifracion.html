@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
 </head>
+
 <body>
     <div class="principal">
         <div class="titulo">
-            <h1>¡Descifra el mensaje que salvo el Peru!</h1>
+            <p>¡Descifra el mensaje que salvó el Perú!</p>
         </div>
         <div class="contenido">
-            <h1>¡pega el mensaje de Jose Olaya y descubre el mensaje secreto!</h1>
-            <p></p>
-            <form action="">
-                <a href="resultado.html" class="siguiente" id="enviar">continuar</a>
-            </form>
+            <h1 class="letrs">¡pega el mensaje de Jose Olaya y descubre el mensaje secreto!</h1>
+            <div class="pergamino">
+
+                <textarea class="number" name="" id="nombre" placeholder="ingresa el mensaje"></textarea>
+                <br>
+                <input class="number" id="clave" type="text" placeholder="clave">
+                <br>
+                <textarea class="number" name="" id="encriptado"></textarea>
+               <br> 
+                <button class="number"  type="button" onclick="desencriptar()">Desencriptar</button>
+                <br>
+                <a href="resultado.html" class="primary btn" id="enviar">continuar</a>
+            </div>
         </div>
-    </div>
-    <script src="scripts/descifracion.js"></script>
+        <script src="scripts/descifracion.js"></script>
 </body>
+
 </html>
